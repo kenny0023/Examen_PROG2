@@ -13,8 +13,8 @@ class FightLeagueTest {
     @BeforeEach
     void setUp() {
         ligue = new FightLeague("Test League");
-        f1 = ligue.ajouterCombattant("Doe", "John", "The Beast", 80.0);
-        f2 = ligue.ajouterCombattant("Smith", "Jane", "The Queen", 75.0);
+        f1 = ligue.ajouterCombattant("Kamzat", "John", "Le Lion", 80.0);
+        f2 = ligue.ajouterCombattant("Mac", "Gregor", "Le Prédateur", 75.0);
         date = LocalDateTime.of(2025, 8, 7, 10, 0);
     }
 
