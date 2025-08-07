@@ -1,3 +1,4 @@
+package src.test;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -26,8 +27,8 @@ class FightLeagueTest {
 
     @Test
     void testCreerMatchTitreSansTitre() {
-        assertThrows(IllegalArgumentException.class, () -> 
-            ligue.creerMatch(f1, f2, date, "Paris", MatchType.TITRE, null));
+        assertThrows(IllegalArgumentException.class, () ->
+                ligue.creerMatch(f1, f2, date, "Paris", MatchType.TITRE, null));
     }
 
     @Test
